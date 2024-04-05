@@ -87,6 +87,7 @@ Split and merge HSV Image
 
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/6180e834-d59e-4b50-a048-087875e44535)
 
+<br>
 
 ### v)Cut and paste portion of image
 import cv2
@@ -98,7 +99,10 @@ cv2.imshow('image1',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
+
 ![Screenshot 2024-04-05 093746](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ef284bbc-13d1-4268-8a77-46d698d876dc)
+
+<br>
 
 ### vi) BGR and RGB to HSV and GRAY
 img = cv2.imread('pass.jpg',1)
@@ -143,10 +147,12 @@ cv2.imshow('HSV2RGB',BGR)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 <br>
 
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/b9f9b355-5e79-4738-a562-401434a263ad)
 
+<br>
 
 ### viii) RGB and BGR to YCrCb
 import cv2
@@ -187,9 +193,11 @@ cv2.imshow('Merged RGB image',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 <br>
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7b98ca2d-8af6-42d0-b06a-5107b004b14f)
 
+<br>
 ### x) Split and merge HSV Image
 <br>
 import cv2
@@ -208,8 +216,10 @@ cv2.imshow('Merged',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 <br>
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7acee653-4922-4286-af44-730f6e43e638)
+<br>
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
