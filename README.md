@@ -1,4 +1,4 @@
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/e9f582a1-a172-4651-ae43-f518d5a1f988)# COLOR_CONVERSIONS_OF-IMAGE
+# COLOR_CONVERSIONS_OF-IMAGE
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 
@@ -193,6 +193,7 @@ Split and merge HSV Image
         cv2.destroyAllWindows()
         
  <br>
+ 
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7b98ca2d-8af6-42d0-b06a-5107b004b14f)
         
 <br>
@@ -216,7 +217,9 @@ Split and merge HSV Image
         cv2.destroyAllWindows()
         
 <br>
+
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7acee653-4922-4286-af44-730f6e43e638)
+
 <br>
 
 ## Result:
