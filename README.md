@@ -36,29 +36,24 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##### Program:
-### Developed By:
-### Register Number: 
+### Developed By: S.Shanmathi
+### Register Number: 212222100049
 
 
 ## Output:
 
 ### i) Read and display the image
-    import cv2
-    img=cv2.imread('pic.jpg',1)
-    img=cv2.resize(img,(300,300))
-    cv2.imshow('shan',img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+        import cv2
+        img=cv2.imread('pass.jpg',1)
+        cv2.imshow('shan',img)
+        cv2.waitKey(0)
 <br>
 
-![Screenshot 2024-02-28 230134](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/87273d17-934d-40be-baa9-ad2a94bc26e1)
-
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/1cb82eaf-bc91-46e1-8946-875e629dcb85)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/d0216d8a-3c45-4c54-bf4b-6c54da247585)
 
 ### ii)Write the image
     import cv2
-    img=cv2.imread('pic.jpg',0)
+    img=cv2.imread('pass.jpg',0)
     cv2.imwrite('demos.jpg',img)
 <br>
 
@@ -67,19 +62,18 @@ Split and merge HSV Image
 <br>
 
 ### iii)Shape of the Image
-    import cv2
-    image=cv2.imread('pic.jpg',1)
+    image=cv2.imread('pass.jpg',1)
     print(image.shape)
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/df551d8f-5684-42bd-9231-d1edabee81a8)
+![Screenshot 2024-04-05 092259](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/8b579460-8f10-431f-b754-cb79165ef749)
 
 <br>
 
 ### iv)Access rows and columns
     import random
     import cv2
-    image=cv2.imread('pic.jpg',1)
+    image=cv2.imread('pass.jpg',1)
     image=cv2.resize(image,(500,500))
     for i in range (250,500):
       for j in range(image.shape[1]):
@@ -91,11 +85,7 @@ Split and merge HSV Image
     cv2.destroyAllWindows()
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/1777a217-e5ee-4525-9025-352de38bb3b0)
-
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/a5b0aca1-4a21-4fbd-85ce-fb8f3ed0fe5f)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/6180e834-d59e-4b50-a048-087875e44535)
 
 
 ### v)Cut and paste portion of image
@@ -108,17 +98,10 @@ cv2.imshow('image1',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/2375c15e-588b-462b-bb71-e1715c3ebe7e)
-
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ce4ed0c8-b48a-489c-b096-91ec50cc020c)
-
+![Screenshot 2024-04-05 093746](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ef284bbc-13d1-4268-8a77-46d698d876dc)
 
 ### vi) BGR and RGB to HSV and GRAY
-import cv2
-img = cv2.imread('pic.jpg',1)
+img = cv2.imread('pass.jpg',1)
 img = cv2.resize(img,(200,200))
 cv2.imshow('Original Image',img)
 
@@ -136,18 +119,17 @@ cv2.imshow('RGB2GRAY',gray2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ebe8040b-3508-4780-bf76-435259a0a8eb)
 
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/eca05949-ee65-4c39-a994-50f98765b3fb)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/4a9c2fd1-1e70-4b75-ba5a-58d1311de46c)
 
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/5cce6484-8e4a-4684-86f2-095b17ea27ef)
+
+<br>
 
 ### vii) HSV to RGB and BGR
-import cv2
-img = cv2.imread('pic.jpg')
+img = cv2.imread('pass.jpg')
 img = cv2.resize(img,(200,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -163,15 +145,12 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/d9655ba9-2f09-426a-b2b0-1c36992ec5ea)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/b9f9b355-5e79-4738-a562-401434a263ad)
 
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/dfe21177-1327-45e8-a645-d30facc52af2)
 
 ### viii) RGB and BGR to YCrCb
 import cv2
-img = cv2.imread('pic.jpg')
+img = cv2.imread('pass.jpg')
 img = cv2.resize(img,(200,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -185,15 +164,14 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
 
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/fe01e8fa-9ec8-4c06-9684-3bfa862714e8)
 
 <br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/a4f0f7de-5ea2-4741-8f23-7f2a8cc0b0f1)
 
 ### ix) Split and merge RGB Image
 <br>
 import cv2
-img = cv2.imread('pic.jpg',1)
+img = cv2.imread('pass.jpg',1)
 img = cv2.resize(img,(200,200))
 
 R = img[:,:,2]
@@ -210,13 +188,12 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/69a9f715-3f49-4477-8bfc-09d308a0ed77)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7b98ca2d-8af6-42d0-b06a-5107b004b14f)
 
 ### x) Split and merge HSV Image
 <br>
 import cv2
-img = cv2.imread("pic.jpg",1)
+img = cv2.imread("pass.jpg",1)
 img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
@@ -232,9 +209,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 <br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/b9951810-1160-4cd2-b252-be17542f7251)
-
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7acee653-4922-4286-af44-730f6e43e638)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
