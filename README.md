@@ -1,4 +1,4 @@
-# COLOR_CONVERSIONS_OF-IMAGE
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/e9f582a1-a172-4651-ae43-f518d5a1f988)# COLOR_CONVERSIONS_OF-IMAGE
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 
@@ -83,11 +83,11 @@ Split and merge HSV Image
     cv2.imshow('part image',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-        <br>
+<br>
         
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/6180e834-d59e-4b50-a048-087875e44535)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/6180e834-d59e-4b50-a048-087875e44535)
         
-        <br>
+<br>
 
 ### v)Cut and paste portion of image
         import cv2
@@ -126,9 +126,8 @@ Split and merge HSV Image
         
         <br>
         
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/4a9c2fd1-1e70-4b75-ba5a-58d1311de46c)
-        
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/5cce6484-8e4a-4684-86f2-095b17ea27ef)
+ ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/4a9c2fd1-1e70-4b75-ba5a-58d1311de46c)
+ ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/5cce6484-8e4a-4684-86f2-095b17ea27ef)
         
         <br>
 
@@ -147,12 +146,11 @@ Split and merge HSV Image
         
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+<br>
         
-        <br>
+ ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/b9f9b355-5e79-4738-a562-401434a263ad)
         
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/b9f9b355-5e79-4738-a562-401434a263ad)
-        
-        <br>
+<br>
 
 ### viii) RGB and BGR to YCrCb
         import cv2
@@ -168,11 +166,11 @@ Split and merge HSV Image
         
         cv2.waitKey(0)
         cv2.destroyAllWindows()
-        <br>
+<br>
         
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/fe01e8fa-9ec8-4c06-9684-3bfa862714e8)
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/fe01e8fa-9ec8-4c06-9684-3bfa862714e8)
         
-        <br>
+<br>
 
 ### ix) Split and merge RGB Image
         <br>
@@ -194,10 +192,10 @@ Split and merge HSV Image
         cv2.waitKey(0)
         cv2.destroyAllWindows()
         
-        <br>
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7b98ca2d-8af6-42d0-b06a-5107b004b14f)
+ <br>
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7b98ca2d-8af6-42d0-b06a-5107b004b14f)
         
-        <br>
+<br>
         ### x) Split and merge HSV Image
         <br>
         import cv2
@@ -217,9 +215,9 @@ Split and merge HSV Image
         cv2.waitKey(0)
         cv2.destroyAllWindows()
         
-        <br>
-        ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7acee653-4922-4286-af44-730f6e43e638)
-        <br>
+<br>
+![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/7acee653-4922-4286-af44-730f6e43e638)
+<br>
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
